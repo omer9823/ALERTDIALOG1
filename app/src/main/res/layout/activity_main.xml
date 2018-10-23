@@ -5,30 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/LL1"
     tools:context="com.example.user.alertdialog.MainActivity">
 
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="100dp" />
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
 
     <Button
         android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:onClick="ome1"
-        android:text="NO button"/>
+        android:text="NO button" />
 
     <Space
         android:layout_width="match_parent"
         android:layout_height="30dp" />
-    
+
     <Button
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:onClick="ome2"
-        android:text="NO BUTTON WITH ICON "/>
+        android:text="NO BUTTON WITH ICON " />
 
 
     <Space
@@ -40,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:onClick="ome3"
-        android:text="ONE BUTTON ONLY "/>
+        android:text="ONE BUTTON ONLY " />
 
     <Space
         android:layout_width="match_parent"
@@ -51,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:onClick="ome4"
-        android:text="TWO BUTTONS "/>
+        android:text="TWO BUTTONS " />
 
     <Space
         android:layout_width="match_parent"
@@ -62,27 +64,7 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:onClick="ome5"
-        android:text="THREE BUTTONS "/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        android:text="THREE BUTTONS " />
 
 
 </LinearLayout>

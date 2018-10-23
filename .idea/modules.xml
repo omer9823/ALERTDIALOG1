@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ALERTDIALOG.iml" filepath="$PROJECT_DIR$/ALERTDIALOG.iml" />
+      <module fileurl="file://C:\AndroidProj\ALERTDIALOG\ALERTDIALOG.iml" filepath="C:\AndroidProj\ALERTDIALOG\ALERTDIALOG.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\AndroidProj\ALERTDIALOG\app\app.iml" filepath="C:\AndroidProj\ALERTDIALOG\app\app.iml" />
     </modules>
   </component>
 </project>
